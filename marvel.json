@@ -1,9 +1,9 @@
 {
-    "img": "/author1.png",
+    "img": "./author1.png",
     "size": 130000,
     "children": [
      {
-      "img":  "/Capture.png",
+      "img":  "./Capture.png",
       "size": 40000,
       "children": [
        {
@@ -11,7 +11,7 @@
          "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
          "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
          "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
-         "img2":  "/Virtua.png",
+         "img2":  "./Virtua.png",
          "size": 40000
        },
        {
@@ -19,12 +19,14 @@
          "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
          "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
          "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
+         "img2":  "./Virtua.png",
          "size": 40000
        },
        {
          "articlename": "Switch", 
          "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
          "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
+         "img2":  "./Virtua.png",
          "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
          "size": 40000
        },
@@ -33,12 +35,14 @@
         "articlename": "Virtua Racing",
         "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
         "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
+        "img2":  "./Virtua.png",
         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
         "size": 40000
       },
       {
         "articlename": "Castlevania",
         "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
+        "img2":  "./Virtua.png",
         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
         "size": 40000
@@ -47,13 +51,124 @@
         "articlename": "Switch", 
         "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
+        "img2":  "./Virtua.png",
         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
         "size": 40000
       }
       ]
     },
     {
-      "img":  "/Capture2.png",
+      "img":  "./Capture2.png",
+      "size": 40000,
+      "children": [
+       {
+         "articlename": "Virtua Racing",
+         "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
+         "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
+         "img2":  "./Virtua.png",
+         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
+         "size": 40000
+       },
+       {
+         "articlename": "Castlevania",
+         "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
+         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
+         "img2":  "./Virtua.png",
+         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
+         "size": 40000
+       },
+       {
+         "articlename": "Switch", 
+         "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
+         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
+         "img2":  "./Virtua.png",
+         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
+         "size": 40000
+       },
+
+       {
+        "articlename": "Virtua Racing",
+        "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
+        "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
+        "img2":  "./Virtua.png",
+        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
+        "size": 40000
+      },
+      {
+        "articlename": "Castlevania",
+        "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
+        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
+        "img2":  "./Virtua.png",
+        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
+        "size": 40000
+      },
+      {
+        "articlename": "Switch", 
+        "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
+        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
+        "img2":  "./Virtua.png",
+        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
+        "size": 40000
+      }
+      ]
+    },
+    {
+      "img":  "./Capture4.png",
+      "size": 40000,
+      "children": [
+       {
+         "articlename": "Virtua Racing",
+         "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
+         "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
+         "img2":  "./Virtua.png",
+         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
+         "size": 40000
+       },
+       {
+         "articlename": "Castlevania",
+         "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
+         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
+         "img2":  "./Virtua.png",
+         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
+         "size": 40000
+       },
+       {
+         "articlename": "Switch", 
+         "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
+         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
+         "img2":  "./Virtua.png",
+         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
+         "size": 40000
+       },
+
+       {
+        "articlename": "Virtua Racing",
+        "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
+        "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
+        "img2":  "./Virtua.png",
+        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
+        "size": 40000
+      },
+      {
+        "articlename": "Castlevania",
+        "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
+        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
+        "img2":  "./Virtua.png",
+        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
+        "size": 40000
+      },
+      {
+        "articlename": "Switch", 
+        "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
+        "img2":  "./Virtua.png",
+        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
+        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
+        "size": 40000
+      }
+      ]
+    },
+    {
+      "img":  "./Capture5.png",
       "size": 40000,
       "children": [
        {
@@ -102,7 +217,7 @@
       ]
     },
     {
-      "img":  "/Capture4.png",
+      "img":  "./Capture6.png",
       "size": 40000,
       "children": [
        {
@@ -151,7 +266,7 @@
       ]
     },
     {
-      "img":  "/Capture5.png",
+      "img":  "./Capture7.png",
       "size": 40000,
       "children": [
        {
@@ -200,105 +315,7 @@
       ]
     },
     {
-      "img":  "/Capture6.png",
-      "size": 40000,
-      "children": [
-       {
-         "articlename": "Virtua Racing",
-         "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
-         "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
-         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
-         "size": 40000
-       },
-       {
-         "articlename": "Castlevania",
-         "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
-         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
-         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
-         "size": 40000
-       },
-       {
-         "articlename": "Switch", 
-         "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
-         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
-         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
-         "size": 40000
-       },
-
-       {
-        "articlename": "Virtua Racing",
-        "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
-        "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
-        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
-        "size": 40000
-      },
-      {
-        "articlename": "Castlevania",
-        "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
-        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
-        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
-        "size": 40000
-      },
-      {
-        "articlename": "Switch", 
-        "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
-        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
-        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
-        "size": 40000
-      }
-      ]
-    },
-    {
-      "img":  "/Capture7.png",
-      "size": 40000,
-      "children": [
-       {
-         "articlename": "Virtua Racing",
-         "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
-         "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
-         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
-         "size": 40000
-       },
-       {
-         "articlename": "Castlevania",
-         "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
-         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
-         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
-         "size": 40000
-       },
-       {
-         "articlename": "Switch", 
-         "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
-         "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
-         "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
-         "size": 40000
-       },
-
-       {
-        "articlename": "Virtua Racing",
-        "name": "The Classic Arcade Game 'Virtua Racing' Is Finally Coming To The Switch In Japan This April", 
-        "link": "https://www.forbes.com/sites/olliebarder/2019/04/19/the-classic-arcade-game-virtua-racing-is-finally-coming-to-the-switch-in-japan-this-april/#7256b74b7258",
-        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2019%2F04%2Fvirtua_racing_switch-1200x675.jpg",
-        "size": 40000
-      },
-      {
-        "articlename": "Castlevania",
-        "name": "The 'Castlevania Anniversary Collection' Is Released This May", 
-        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/the-castlevania-anniversary-collection-is-released-this-may/#33b4543839df",
-        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F06%2Fcastlevania_switch2-1200x900.jpg",
-        "size": 40000
-      },
-      {
-        "articlename": "Switch", 
-        "name": "Tencent Will Be Releasing The Switch In China And Nintendo's Stock Is Soaring As A Result",
-        "link": "https://www.forbes.com/sites/olliebarder/2019/04/18/tencent-will-be-releasing-the-switch-in-china-and-nintendos-stock-is-soaring-as-a-result/#54b6b88e213c",
-        "img":  "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2017%2F02%2Fnintendo_switch_games-1200x675.jpg",
-        "size": 40000
-      }
-      ]
-    },
-    {
-        "img":  "/Capture3.png",
+        "img":  "./Capture3.png",
         "size": 40000,
         "children": [
          {
