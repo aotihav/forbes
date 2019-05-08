@@ -5,25 +5,19 @@
    @import url("https://fonts.googleapis.com/css?family=Work+Sans");
    @import url("https://fonts.googleapis.com/css?family=Merriweather");
 
-#vis{
-  display: block;
-  float:right;
-}
-
 body {
   font-family: "Work Sans", Consolas, monaco, monospace; line-height: 160%; font-size: 16px;  margin: 0;
   overflow:hidden;
   color: white;
-  background-image: url("/unsplash.jpg");
+  background-image: url("/forbes/unsplash.jpg");
   height: 100%; 
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  stroke-width: .5px;
+  background-size: cover;
+  stroke-width: 2px;
   fill: none;
   text-anchor: middle;
 }
-
 
 text {
   pointer-events: none;
@@ -40,10 +34,10 @@ h1 {
 font-size: 36px; margin: 10px 0; font-weight: bold;}
       h2, h3 { font-size: 18px; margin: 5px 0 ; font-weight: normal;}
       header {padding: 20px; position: absolute; top: 0; left: 0;}
-      a:link { color: #EE3124; text-decoration: none;}
+      a:link { color: white; text-decoration: none;}
       a:visited { color: #EE3124; }
       a:hover { color: #A4CD39; text-decoration: underline;}
-      a:active { color: #EE3124; }
+      a:active { color: white; }
 
 </style>
 </head>
@@ -55,7 +49,7 @@ font-size: 36px; margin: 10px 0; font-weight: bold;}
       </header>
       <!-- container for force layout visualisation  -->
       <section id="vis"></section> 
-<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 var w = window.innerWidth;
 var h = window.innerHeight;
@@ -97,14 +91,17 @@ var max_base_node_size = 36;
 var min_zoom = 0.1;
 var max_zoom = 7;
 
-
+var svg = d3.select("body").append("svg");
+var zoom = d3.behavior.zoom().scaleExtent([min_zoom,max_zoom])
+var g = svg.append("g");
+svg.style("cursor","move");
   	
 				
   // some colour variables
   var tcBlack = "white";
 
 // rest of vars
-var w = 1000,
+var w = 1920,
     h = 1080,
     maxNodeSize = 50,
     x_browser = 20,
@@ -149,7 +146,7 @@ function update() {
         .links(links)
         .gravity(0.005)
     .charge(-10500)
-    .linkDistance(90)
+    .linkDistance(70)
     .friction(0.1)
     .linkStrength(function(l, i) {return 1; })
     .size([w, h])
@@ -193,7 +190,7 @@ function update() {
 
   var images = nodeEnter.append("svg:image")
         .attr("xlink:href",  function(d) { return d.img;})
-        // .attr("clip-path", "url(#circle-clip)")
+        .attr("clip-path", "url(#circle-clip)")
         .attr("x", function(d) { return -25;})
         .attr("y", function(d) { return -25;})
         .attr("height", function(d){ return Math.sqrt(d.size)/3})
@@ -201,20 +198,11 @@ function update() {
   
   // make the image grow a little on mouse over and add the text details on click
   var setEvents = images
-
           // Append articlename text
           .on( 'click', function (d) {
               d3.select("h1").html(d.articlename); 
               d3.select("h2").html(d.name); 
-if (d.articlename==undefined){
-  d3.select("h3").html ("" ); 
-
-}
-              else{
-                d3.select("h3").html ("Take me to the " + "<a href='" + d.link + "' >"  + d.articlename + " article ⇢"+ "</a>" ); 
-
-              }
-
+              d3.select("h3").html ("Take me to the " + "<a href='" + d.link + "' >"  + d.articlename + " article ⇢"+ "</a>" ); 
            })
 
           .on( 'mouseenter', function() {
@@ -253,23 +241,12 @@ if (d.articlename==undefined){
   path = vis.selectAll("path.link");
   node = vis.selectAll("g.node");
  
-  function tick() {
+function tick() {
  
  
- path.attr("d", function(d) {
 
-  var dx = d.target.x - d.source.x,
-        dy = d.target.y - d.source.y,
-        dr = Math.sqrt(dx * dx + dy * dy);
-        return   "M" + d.source.x + "," 
-         + d.source.y 
-         + "A" + dr + "," 
-         + dr + " 0 0,1 " 
-         + d.target.x + "," 
-         + d.target.y;
-});
- node.attr("transform", nodeTransform);    
-}
+    node.attr("transform", nodeTransform);    
+  }
 }
  
 /**
